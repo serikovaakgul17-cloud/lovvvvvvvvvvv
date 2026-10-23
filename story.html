@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff9f7"><title>Наша история ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/animations.js" defer></script><script src="js/main.js" defer></script><script src="js/gallery.js" defer></script>
+</head>
+<body><div class="page-glow glow-one"></div><div class="page-glow glow-two"></div>
+<header class="site-header">
+    <a class="brand" href="index.html" aria-label="На главную">для Сары <span>♥</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Открыть меню">☰</button>
+    <nav id="site-nav" class="site-nav">
+      <a href="index.html">Главная ❤️</a><a class="active" href="story.html">Наша история 📖</a><a href="nicknames.html">Мои прозвища 💌</a><a href="memories.html">Наши дни ⏳</a><a href="love.html">Я люблю тебя 💗</a><a href="final.html">Напоследок 💌</a>
+    </nav>
+  </header>
+<main class="content-page">
+<section class="page-heading reveal"><div class="eyebrow">глава за главой · только наша история</div><h1>Однажды в моей жизни<br><em>появилась ты…</em></h1><p>И обычные дни постепенно стали воспоминаниями, которые я хочу хранить всю жизнь.</p></section>
+<section class="date-banner reveal"><span class="date-flower">✿</span><div><span class="small-label">День, когда началась наша история</span><strong>24.10.2024</strong><p>С этого дня в моей жизни появилось наше «мы».</p></div><span class="date-flower">♡</span></section>
+<section class="timeline-section"><h2 class="section-title reveal">Страницы нашего дневника</h2><div class="timeline">
+  <article class="timeline-item reveal"><span class="timeline-dot">♥</span><div class="paper-card"><span class="small-label">Глава первая</span><h3>С чего всё началось</h3><p>24 октября 2024 года — дата, с которой началась наша общая история. Здесь можно сохранить, как всё было в самом начале.</p><label class="field-label" for="memory-start">Моё воспоминание</label><textarea id="memory-start" data-save="memory-start" placeholder="Напиши здесь, как вы познакомились и что запомнилось…"></textarea></div></article>
+  <article class="timeline-item reveal"><span class="timeline-dot">♡</span><div class="paper-card"><span class="small-label">Наши моменты</span><h3>Моменты, которые стали нашими</h3><p>Маленькие события, шутки и разговоры, которые понятны только нам.</p><textarea data-save="memory-moments" placeholder="Добавь ваши особенные моменты…"></textarea></div></article>
+  <article class="timeline-item reveal"><span class="timeline-dot">✧</span><div class="paper-card"><span class="small-label">То, что впереди</span><h3>То, что я хочу пережить с тобой ещё тысячу раз</h3><p>Новые прогулки, поездки, праздники, объятия и обычные вечера рядом.</p><textarea data-save="memory-future" placeholder="О чём мечтаете вместе?"></textarea></div></article>
+</div></section>
+<section class="gallery-section reveal"><div class="section-heading-row"><div><div class="eyebrow">маленький фотоальбом</div><h2 class="section-title">Наши улыбки и воспоминания</h2></div><p class="muted"></p></div>
+<div class="photo-grid">
+  <button class="photo-card photo-tall" data-photo="assets/images/photo-1.jpeg" data-caption="Наш особенный момент"><span class="photo-placeholder">♡<small>photo-1.jpg</small></span><span class="photo-caption">Наш особенный момент</span></button>
+  <button class="photo-card" data-photo="assets/images/photo-3.jpeg" data-caption="Улыбка, которую я люблю"><span class="photo-placeholder">✿<small>photo-2.jpg</small></span><span class="photo-caption">Улыбка, которую я люблю</span></button>
+  <button class="photo-card" data-photo="assets/images/photo-2.jpeg" data-caption="Только наше"><span class="photo-placeholder">✨<small>photo-3.jpg</small></span><span class="photo-caption">Только наше</span></button>
+  <button class="photo-card photo-wide" data-photo="assets/images/photo-4.jpeg" data-caption="И это только начало"><span class="photo-placeholder">♥<small>photo-4.jpg</small></span><span class="photo-caption">И это только начало</span></button>
+</div><p class="gallery-note">Я хочу, чтобы через много лет мы смотрели на эти фотографии и улыбались, вспоминая, какими мы были и сколько всего прошли вместе.</p></section>
+<div id="lightbox" class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Просмотр фотографии"><button class="lightbox-close" aria-label="Закрыть">×</button><button class="lightbox-prev" aria-label="Предыдущее фото">‹</button><figure><img id="lightbox-image" alt=""><figcaption id="lightbox-caption"></figcaption></figure><button class="lightbox-next" aria-label="Следующее фото">›</button></div>
+</main>
+<footer class="site-footer"><p>Создано с любовью для Сары ❤️</p><small>Наша история началась 24.10.2024 и продолжается…</small></footer>
+</body></html>
